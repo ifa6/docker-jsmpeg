@@ -1,4 +1,4 @@
 [submodule "jsmpeg"]
 	path = jsmpeg
-	url = git@github.com:phoboslab/jsmpeg.git
+	url = https://github.com/phoboslab/jsmpeg.git
 	branch = master
