@@ -6,8 +6,7 @@ RUN apk add --no-cache ffmpeg \
 COPY jsmpeg /opt/jsmpeg
 
 RUN cd /opt/jsmpeg \
-    && npm install ws \
-    && ln -s ./view-stream.html ./index.html
+    && npm install ws
 
 COPY entrypoint.sh /entrypoint.sh
 
